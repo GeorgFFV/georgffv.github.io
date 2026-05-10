@@ -1,0 +1,377 @@
+@use 'variables' as *;
+
+// === PUBLICATIONS PAGE ===
+
+.pub-category {
+  margin-bottom: $space-12;
+}
+
+.pub-category-title {
+  font-size: $font-size-xl;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: $space-6;
+  display: flex;
+  align-items: center;
+  gap: $space-3;
+
+  i {
+    color: var(--accent);
+    font-size: 1.1em;
+  }
+
+  &::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+    margin-left: $space-4;
+  }
+}
+
+.pub-list {
+  display: flex;
+  flex-direction: column;
+  gap: $space-4;
+}
+
+.pub-item {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 0 $radius-md $radius-md 0;
+  padding: $space-5 $space-6;
+  transition: box-shadow $transition-base, transform $transition-base;
+
+  &:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateX(2px);
+  }
+}
+
+.pub-year {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #fff;
+  background: var(--accent);
+  padding: 2px $space-2;
+  border-radius: $radius-sm;
+  margin-bottom: $space-2;
+  letter-spacing: 0.05em;
+}
+
+.pub-title {
+  font-size: $font-size-base;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: $space-2;
+  line-height: 1.4;
+}
+
+.pub-authors {
+  font-size: $font-size-sm;
+  color: var(--text-muted);
+  margin-bottom: $space-1;
+}
+
+.pub-venue {
+  font-size: $font-size-sm;
+  color: var(--accent);
+  font-style: italic;
+  margin-bottom: $space-3;
+}
+
+.pub-abstract {
+  font-size: $font-size-sm;
+  color: var(--text-muted);
+  line-height: $line-height;
+  margin-bottom: $space-3;
+
+  details > summary {
+    cursor: pointer;
+    color: var(--accent);
+    font-weight: 500;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    gap: $space-2;
+
+    &::-webkit-details-marker { display: none; }
+    &::before {
+      content: '▶';
+      font-size: 0.65em;
+      transition: transform $transition-fast;
+    }
+  }
+
+  details[open] > summary::before {
+    transform: rotate(90deg);
+  }
+
+  .abstract-body {
+    margin-top: $space-3;
+    padding: $space-3;
+    background: var(--bg);
+    border-radius: $radius-sm;
+    border-left: 3px solid var(--border);
+  }
+}
+
+.pub-links {
+  display: flex;
+  gap: $space-3;
+  flex-wrap: wrap;
+}
+
+.pub-link {
+  font-size: $font-size-sm;
+  color: var(--text-muted);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: $space-1;
+  transition: color $transition-fast;
+
+  &:hover { color: var(--accent); }
+  i { font-size: 0.85em; }
+}
+
+// === PROJECT CARDS ===
+
+.project-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: $radius-lg;
+  padding: $space-6;
+  margin-bottom: $space-6;
+  transition: box-shadow $transition-base;
+
+  &.highlight {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 1px var(--accent-light);
+  }
+
+  &:hover {
+    box-shadow: var(--shadow-lg);
+  }
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: $space-4;
+  margin-bottom: $space-3;
+
+  @media (max-width: $bp-mobile) {
+    flex-direction: column;
+  }
+}
+
+.project-title {
+  font-size: $font-size-lg;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.project-period {
+  font-size: $font-size-sm;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.project-role {
+  font-size: $font-size-sm;
+  font-weight: 500;
+  color: var(--accent);
+  margin-bottom: $space-3;
+}
+
+.project-desc {
+  font-size: $font-size-sm;
+  color: var(--text-muted);
+  line-height: $line-height;
+}
+
+// === CONTACT PAGE ===
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: $space-8;
+  margin-top: $space-6;
+
+  @media (max-width: $bp-tablet) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contact-info {
+  h3 {
+    font-size: $font-size-lg;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: $space-4;
+  }
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: $space-3;
+  padding: $space-3 $space-4;
+  border-radius: $radius-md;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  text-decoration: none;
+  font-size: $font-size-sm;
+  margin-bottom: $space-3;
+  transition: border-color $transition-fast, color $transition-fast;
+
+  i {
+    color: var(--accent);
+    width: 20px;
+    text-align: center;
+  }
+
+  &:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+}
+
+.contact-form {
+  .form-group {
+    margin-bottom: $space-4;
+  }
+
+  label {
+    display: block;
+    font-size: $font-size-sm;
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: $space-2;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: $space-3 $space-4;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: $radius-md;
+    color: var(--text);
+    font-size: $font-size-base;
+    font-family: $font-body;
+    transition: border-color $transition-fast, box-shadow $transition-fast;
+    box-sizing: border-box;
+
+    &:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(79, 110, 247, 0.15);
+    }
+
+    &::placeholder { color: var(--text-light); }
+  }
+
+  textarea {
+    min-height: 140px;
+    resize: vertical;
+  }
+}
+
+// === PUB FOOTER (tags + action buttons) ===
+
+.pub-footer {
+  display: flex;
+  align-items: flex-end;
+  gap: $space-3;
+  margin-top: $space-3;
+  flex-wrap: wrap;
+
+  .tags {
+    margin-top: 0;
+    flex: 1;
+    min-width: 0;
+  }
+}
+
+.pub-actions {
+  display: flex;
+  gap: $space-2;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+
+.pub-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: $space-1;
+  padding: $space-1 $space-3;
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-family: $font-body;
+  border-radius: $radius-full;
+  text-decoration: none;
+  border: 1.5px solid var(--accent);
+  color: var(--accent);
+  background: transparent;
+  transition: background $transition-fast, color $transition-fast, transform $transition-fast;
+  white-space: nowrap;
+
+  i { font-size: 0.7rem; }
+
+  &:hover {
+    background: var(--accent);
+    color: #fff;
+    transform: translateY(-1px);
+    text-decoration: none;
+  }
+
+  &--gh {
+    border-color: var(--text-muted);
+    color: var(--text-muted);
+
+    &:hover {
+      background: var(--text-muted);
+      color: var(--bg);
+    }
+  }
+}
+
+.project-advisor {
+  font-style: italic;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+// === ACADEMICONS SIZE FIX ===
+// Academicons renders slightly larger than FA at same em value
+.contact-link i.ai,
+.sidebar-social a i.ai {
+  font-size: 1.2em;
+  line-height: 1;
+}
+
+// === MATHJAX DISPLAY ===
+
+.math-box {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: $radius-md;
+  padding: $space-4 $space-6;
+  margin: $space-6 0;
+  overflow-x: auto;
+
+  .math-label {
+    font-size: $font-size-sm;
+    font-weight: 500;
+    color: var(--accent);
+    margin-bottom: $space-2;
+    font-family: $font-mono;
+  }
+}

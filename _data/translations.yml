@@ -1,0 +1,68 @@
+pt:
+  nav_home: "Início"
+  nav_about: "Sobre"
+  nav_publications: "Publicações"
+  nav_projects: "Projetos"
+  nav_contact: "Contato"
+  hero_greeting: "Olá, sou"
+  hero_subtitle: "Mestrando em Ciência da Computação"
+  hero_institution: "UFERSA/UERN — Mossoró, RN, Brasil"
+  hero_description: >
+    Mestrando no programa de pós-graduação UFERSA/UERN,
+    ex-professor substituto da UFERSA, com pesquisa focada em
+    Otimização e Inteligência Computacional — especialmente
+    Aprendizado por Reforço e Metaheurísticas (PSO, Simulated Annealing).
+  hero_cta_pub: "Ver Publicações"
+  hero_cta_contact: "Entre em Contato"
+  about_title: "Sobre Mim"
+  about_research: "Área de Pesquisa"
+  about_research_desc: "Aprendizado por Reforço, Metaheurísticas (PSO, Simulated Annealing), IoT, Aprendizado de Máquina aplicado à Educação."
+  about_education: "Formação"
+  about_experience: "Experiência"
+  pub_title: "Publicações"
+  pub_journals: "Artigos em Periódicos"
+  pub_conferences: "Conferências / Anais"
+  pub_projects: "Projetos de Pesquisa"
+  contact_title: "Contato"
+  contact_subtitle: "Vamos conversar sobre pesquisa, colaborações ou oportunidades."
+  contact_name: "Nome"
+  contact_email: "E-mail"
+  contact_message: "Mensagem"
+  contact_send: "Enviar Mensagem"
+  contact_lattes: "Currículo Lattes"
+  theme_light: "Modo Claro"
+  theme_dark: "Modo Escuro"
+
+en:
+  nav_home: "Home"
+  nav_about: "About"
+  nav_publications: "Publications"
+  nav_projects: "Projects"
+  nav_contact: "Contact"
+  hero_greeting: "Hi, I'm"
+  hero_subtitle: "Computer Science MSc Student"
+  hero_institution: "UFERSA/UERN — Mossoró, RN, Brazil"
+  hero_description: >
+    Computer Science MSc Student at UFERSA/UERN. Former Substitute Professor
+    focusing on Machine Learning research, specifically Reinforcement Learning
+    and Metaheuristics (PSO and Simulated Annealing).
+  hero_cta_pub: "View Publications"
+  hero_cta_contact: "Get in Touch"
+  about_title: "About Me"
+  about_research: "Research Interests"
+  about_research_desc: "Reinforcement Learning, Metaheuristics (PSO, Simulated Annealing), IoT, Machine Learning applied to Education."
+  about_education: "Education"
+  about_experience: "Experience"
+  pub_title: "Publications"
+  pub_journals: "Journal Articles"
+  pub_conferences: "Conference Papers"
+  pub_projects: "Research Projects"
+  contact_title: "Contact"
+  contact_subtitle: "Let's talk about research, collaborations, or opportunities."
+  contact_name: "Name"
+  contact_email: "Email"
+  contact_message: "Message"
+  contact_send: "Send Message"
+  contact_lattes: "Lattes CV"
+  theme_light: "Light Mode"
+  theme_dark: "Dark Mode"

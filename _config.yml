@@ -1,0 +1,83 @@
+# =============================================================================
+# _config.yml — George Felipe Fernandes Vieira | Academic Portfolio
+# =============================================================================
+
+# --- Site Identity ---
+title: "George Felipe"
+tagline: "Mestrando em Ciência da Computação"
+description: >-
+  Portfólio acadêmico de George Felipe Fernandes Vieira.
+  Mestrando no programa UFERSA/UERN, com pesquisa em
+  Otimização e Inteligência Computacional.
+author:
+  name: "George Felipe Fernandes Vieira"
+  title_pt: "Mestrando em Ciência da Computação"
+  title_en: "Computer Science MSc Student"
+  email: "georgeffv1@gmail.com"
+  github: "GeorgFFV"
+  linkedin: "george-felipe-fv"
+  lattes: "7858546276170392"
+  orcid: "0009-0004-4009-3405"
+  scholar: "IUR5BAIAAAAJ"
+  researchgate: "George-Vieira-2"
+  photo: "/assets/img/profile.jpeg"
+
+# --- Build Settings ---
+baseurl: ""
+url: "https://GeorgFFV.github.io"
+permalink: /:year/:month/:day/:title/
+
+# --- Plugins ---
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# --- Defaults ---
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "George Felipe Fernandes Vieira"
+
+# --- MathJax ---
+mathjax: true
+
+# --- Collections ---
+collections:
+  publications:
+    output: false
+
+# --- Sass ---
+sass:
+  style: compressed
+  sass_dir: _sass
+
+# --- Exclude from build ---
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - README.md
+
+# --- Navigation ---
+nav_links:
+  - title_pt: "Início"
+    title_en: "Home"
+    url: "/"
+  - title_pt: "Sobre"
+    title_en: "About"
+    url: "/pages/about/"
+  - title_pt: "Publicações"
+    title_en: "Publications"
+    url: "/pages/publications/"
+  - title_pt: "Projetos"
+    title_en: "Projects"
+    url: "/pages/projects/"
+  - title_pt: "Contato"
+    title_en: "Contact"
+    url: "/pages/contact/"

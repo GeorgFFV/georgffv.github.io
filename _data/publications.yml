@@ -1,0 +1,203 @@
+# =============================================================================
+# publications.yml — baseado no Currículo Lattes (atualizado 08/05/2026)
+# Ordem cronológica inversa dentro de cada categoria
+# =============================================================================
+
+# --- Artigos em Periódicos ---------------------------------------------------
+journals:
+  - year: 2023
+    authors: "VIEIRA, G. F. F.; DE CASTRO, A. F.; DE OLIVEIRA, A. G."
+    title: "Perfil epidemiológico da Febre Amarela no Brasil, entre os anos de 1994 e 2021, através da análise de dados oficiais do Datasus"
+    title_en: "Epidemiological profile of Yellow Fever in Brazil, between 1994 and 2021, through the analysis of official Datasus data"
+    journal: "Brazilian Journal of Health Review"
+    volume: "6"
+    pages: "13800–13812"
+    abstract_pt: "Análise epidemiológica da Febre Amarela no Brasil no período de 1994 a 2021 utilizando dados oficiais do Datasus, com técnicas de análise de dados em Python."
+    abstract_en: "Epidemiological analysis of Yellow Fever in Brazil from 1994 to 2021 using official Datasus data, with Python-based data analysis techniques."
+    tags: ["Epidemiologia", "Febre Amarela", "Datasus", "Python", "Saúde Pública"]
+    doi_url: "http://dx.doi.org/10.34119/bjhrv6n3-421"
+    github_url: ""
+
+  - year: 2023
+    authors: "DE OLIVEIRA, A. G.; DE CASTRO, A. F.; VIEIRA, G. F. F."
+    title: "Perfil epidemiológico das Arboviroses Dengue, Chikungunya e Zikavírus na cidade de Mossoró (RN), entre os anos de 2017 e 2021, utilizando linguagem de programação Python"
+    title_en: "Epidemiological profile of Dengue, Chikungunya and Zika virus Arboviroses in the city of Mossoró (RN), between 2017 and 2021, using Python"
+    journal: "Revista Caribeña de Ciencias Sociales"
+    volume: "12"
+    pages: "1068–1080"
+    abstract_pt: "Estudo do perfil epidemiológico das principais arboviroses na cidade de Mossoró (RN) entre 2017 e 2021, com análise computacional em Python."
+    abstract_en: "Study of the epidemiological profile of the main arboviruses in the city of Mossoró (RN) between 2017 and 2021, with computational analysis in Python."
+    tags: ["Arboviroses", "Dengue", "Chikungunya", "Zika", "Mossoró", "Python"]
+    doi_url: "http://dx.doi.org/10.55905/rcssv12n3-006"
+    github_url: ""
+
+  - year: 2023
+    authors: "DE CASTRO, A. F.; DE OLIVEIRA, A. G.; VIEIRA, G. F. F."
+    title: "Estudo comparativo entre dengue, chikungunya e zikavírus na cidade de Recife (PE), no ano 2021, usando a linguagem Python"
+    title_en: "Comparative study of dengue, chikungunya and zika virus in the city of Recife (PE), in 2021, using the Python language"
+    journal: "Brazilian Journal of Health Review"
+    volume: "6"
+    pages: "10988–10997"
+    abstract_pt: "Análise comparativa dos casos de dengue, chikungunya e zika em Recife no ano de 2021, utilizando Python para o processamento e visualização dos dados epidemiológicos."
+    abstract_en: "Comparative analysis of dengue, chikungunya and zika cases in Recife in 2021, using Python for processing and visualization of epidemiological data."
+    tags: ["Arboviroses", "Dengue", "Recife", "Python", "Saúde Pública"]
+    doi_url: "http://dx.doi.org/10.34119/bjhrv6n3-205"
+    github_url: ""
+
+# --- Capítulos de Livros -----------------------------------------------------
+book_chapters:
+  - year: 2023
+    authors: "CASTRO, A. F.; OLIVEIRA, A. G.; VIEIRA, G. F. F."
+    title: "Recife, Pernambuco, Northeast Brazil: Comparison between cases of dengue, chikungunya and zikavirus in the year 2021, using the Python language"
+    title_en: "Recife, Pernambuco, Northeast Brazil: Comparison between cases of dengue, chikungunya and zikavirus in the year 2021, using the Python language"
+    book: "Development and its Applications in Scientific Knowledge"
+    publisher: "Seven Editora"
+    location: "São Paulo"
+    volume: "1"
+    pages: "1–8"
+    abstract_pt: "Capítulo de livro internacional apresentando a análise comparativa de arboviroses em Recife em 2021 com a linguagem Python."
+    abstract_en: "International book chapter presenting a comparative analysis of arboviruses in Recife in 2021 using the Python language."
+    tags: ["Arboviroses", "Python", "Recife", "Machine Learning"]
+    doi_url: "http://dx.doi.org/10.56238/devopinterscie"
+    github_url: ""
+
+  - year: 2022
+    authors: "VIEIRA, G. F. F.; CASTRO, A. F.; OLIVEIRA, A. G."
+    title: "Aplicando conhecimentos de análise de dados em um estudo de caso sobre dengue em Mossoró, Rio Grande do Norte, Nordeste do Brasil"
+    title_en: "Applying data analysis knowledge in a case study on dengue in Mossoró, Rio Grande do Norte, Northeast Brazil"
+    book: "Open Science Research VI"
+    publisher: "Editora Científica Digital"
+    volume: "6"
+    pages: "731–745"
+    abstract_pt: "Estudo de caso sobre dengue em Mossoró (RN) aplicando técnicas de análise de dados e ciência de dados para identificação de padrões epidemiológicos."
+    abstract_en: "Case study on dengue in Mossoró (RN) applying data analysis and data science techniques to identify epidemiological patterns."
+    tags: ["Dengue", "Mossoró", "Análise de Dados", "Python", "Data Science"]
+    doi_url: "http://dx.doi.org/10.37885/220910261"
+    github_url: ""
+
+# --- Anais de Congressos -----------------------------------------------------
+conferences:
+  - year: 2025
+    authors: "VIEIRA, G. F. F.; OLIVEIRA, A. G. DE; FONTES, F. F. DA C."
+    title: "Estudo e implementação de algoritmos online baseados em aprendizado por reforço para o problema dos K-servos"
+    title_en: "Study and implementation of online algorithms based on reinforcement learning for the K-server problem"
+    venue: "LVII Simpósio Brasileiro de Pesquisa Operacional (SBPO)"
+    location: "Gramado, RS"
+    publisher: "Galoá, Campinas, SP"
+    abstract_pt: "Trabalho apresentando o estudo e a implementação de algoritmos online baseados em Aprendizado por Reforço (Q-Learning) aplicados ao problema dos K-servos, com experimentos comparativos de desempenho."
+    abstract_en: "Paper presenting the study and implementation of online algorithms based on Reinforcement Learning (Q-Learning) applied to the K-server problem, with comparative performance experiments."
+    tags: ["Reinforcement Learning", "Q-Learning", "K-Servers", "Pesquisa Operacional", "Algoritmos Online"]
+    doi_url: "http://dx.doi.org/10.59254/sbpo-2025-212111"
+    github_url: ""
+
+  - year: 2025
+    authors: "DUARTE, B. N.; VIEIRA, G. F. F.; GILÓ, C. D.; ALOISE, D. J.; FONTES, F. F. DA C."
+    title: "Metaheurísticas Busca Tabu e ALNS no Problema do Caixeiro Viajante: aplicação à distribuição de vacinas no Rio Grande do Norte"
+    title_en: "Tabu Search and ALNS Metaheuristics for the Traveling Salesman Problem: application to vaccine distribution in Rio Grande do Norte"
+    venue: "LVII Simpósio Brasileiro de Pesquisa Operacional (SBPO)"
+    location: "Gramado, RS"
+    publisher: "Galoá, Campinas, SP"
+    abstract_pt: "Aplicação das metaheurísticas Busca Tabu e ALNS (Adaptive Large Neighborhood Search) ao Problema do Caixeiro Viajante, com estudo de caso na distribuição de vacinas no RN."
+    abstract_en: "Application of Tabu Search and ALNS (Adaptive Large Neighborhood Search) metaheuristics to the Traveling Salesman Problem, with a case study on vaccine distribution in Rio Grande do Norte."
+    tags: ["Busca Tabu", "ALNS", "TSP", "Metaheurística", "Saúde Pública", "Pesquisa Operacional"]
+    doi_url: "http://dx.doi.org/10.59254/sbpo-2025-212110"
+    github_url: ""
+
+  - year: 2023
+    authors: "VIEIRA, G. F. F.; DE CASTRO, A. F.; DE OLIVEIRA, A. G."
+    title: "Analysis of dengue data, in the municipality of Mossoró, Northeast Brazil, between the years 2015 and 2020, using Python language"
+    title_en: "Analysis of dengue data, in the municipality of Mossoró, Northeast Brazil, between the years 2015 and 2020, using Python language"
+    venue: "18th Iberian Conference on Information Systems and Technologies (CISTI)"
+    location: "Aveiro, Portugal"
+    publisher: "IEEE"
+    pages: "1–10"
+    abstract_pt: "Análise de dados de dengue no município de Mossoró (RN) entre 2015 e 2020 utilizando Python, com identificação de padrões temporais e espaciais de ocorrência da doença."
+    abstract_en: "Analysis of dengue data in the municipality of Mossoró (RN) from 2015 to 2020 using Python, identifying temporal and spatial patterns of disease occurrence."
+    tags: ["Dengue", "Mossoró", "Python", "CISTI", "IEEE", "Data Analysis"]
+    doi_url: "http://dx.doi.org/10.23919/cisti58278.2023.10211686"
+    github_url: ""
+
+  - year: 2022
+    authors: "DE CASTRO, A. F.; DE OLIVEIRA, A. G.; VIEIRA, G. F. F.; DA SILVA, D. E. F."
+    title: "Use of Python language in the analysis of dengue data in Recife, capital of the state of Pernambuco, Northeast of Brazil and definition of trend line using Machine Learning"
+    title_en: "Use of Python language in the analysis of dengue data in Recife, capital of the state of Pernambuco, Northeast of Brazil and definition of trend line using Machine Learning"
+    venue: "17th Iberian Conference on Information Systems and Technologies (CISTI)"
+    location: "Madrid, Espanha"
+    publisher: "IEEE"
+    abstract_pt: "Uso da linguagem Python para análise de dados de dengue em Recife (PE) e definição de linha de tendência com técnicas de Machine Learning."
+    abstract_en: "Use of Python language for dengue data analysis in Recife (PE) and trend line definition using Machine Learning techniques."
+    tags: ["Dengue", "Recife", "Python", "Machine Learning", "CISTI", "IEEE"]
+    doi_url: "http://dx.doi.org/10.23919/cisti54924.2022.9820548"
+    github_url: ""
+
+  - year: 2022
+    authors: "CASTRO, A. F.; OLIVEIRA, A. G.; VIEIRA, G. F. F."
+    title: "Estudo Comparativo entre dengue, chikungunya e zikavírus na cidade de Recife (PE), no ano 2021, usando a linguagem Python"
+    title_en: "Comparative Study of dengue, chikungunya and zika virus in the city of Recife (PE), in 2021, using the Python language"
+    venue: "V Encontro de Computação do Oeste Potiguar (ECOP)"
+    location: "Pau dos Ferros, RN"
+    volume: "6"
+    pages: "62–65"
+    abstract_pt: "Trabalho apresentado no V ECOP com estudo comparativo das arboviroses dengue, chikungunya e zika em Recife no ano de 2021, com análise computacional em Python."
+    abstract_en: "Paper presented at the 5th ECOP with a comparative study of dengue, chikungunya and zika arboviruses in Recife in 2021, with computational analysis in Python."
+    tags: ["Arboviroses", "Dengue", "Python", "ECOP", "Recife"]
+    doi_url: "https://periodicos.ufersa.edu.br/index.php/ecop/article/view/11839"
+    github_url: ""
+
+# --- Projetos de Pesquisa e Desenvolvimento ----------------------------------
+projects:
+  - title: "SMARTLAB — Uma proposta de modernização para ambientes de pesquisa acadêmicos"
+    title_en: "SMARTLAB — A modernization proposal for academic research environments"
+    role_pt: "Coordenador"
+    role_en: "Principal Investigator"
+    institution: "UFERSA"
+    period: "2026 – Atual"
+    status_pt: "Em andamento"
+    status_en: "Ongoing"
+    description_pt: "Implementação de infraestrutura de Internet das Coisas (IoT) para modernização de laboratórios de pesquisa acadêmica. O projeto integra hardware para controle de acesso via RFID, monitoramento ambiental e segurança perimetral, além de uma plataforma de software centralizada. Visa otimizar a gestão de recursos, reduzir custos operacionais com energia e fornecer dados para análises sobre o comportamento de uso do espaço."
+    description_en: "Implementation of an Internet of Things (IoT) infrastructure for modernizing academic research laboratories. The project integrates hardware for RFID access control, environmental monitoring, and perimeter security, along with a centralized software platform. It aims to optimize resource management, reduce energy operational costs, and provide data for space usage behavior analysis."
+    tags: ["IoT", "RFID", "Automação", "Monitoramento", "UFERSA"]
+    highlight: true
+
+  - title: "Análise preditiva do desempenho no ENEM: explorando fatores regionais, sociais e de gênero com técnicas de ciência de dados"
+    title_en: "Predictive analysis of ENEM performance: exploring regional, social and gender factors with data science techniques"
+    role_pt: "Integrante / Orientador de IC"
+    role_en: "Member / Undergraduate Research Supervisor"
+    institution: "UFERSA"
+    period: "2025 – Atual"
+    status_pt: "Em andamento"
+    status_en: "Ongoing"
+    description_pt: "Projeto que explora os microdados do ENEM disponibilizados pelo INEP para identificar correlações entre desempenho acadêmico e variáveis socioeconômicas, regionais e de gênero. Aplica técnicas de aprendizado supervisionado e não supervisionado (regressão logística, árvores de decisão, clustering) para construção de modelos preditivos e análise do impacto de políticas públicas educacionais."
+    description_en: "Project exploring ENEM microdata provided by INEP to identify correlations between academic performance and socioeconomic, regional, and gender variables. Applies supervised and unsupervised learning techniques (logistic regression, decision trees, clustering) to build predictive models and analyze the impact of educational public policies."
+    tags: ["ENEM", "Machine Learning", "Data Science", "Python", "Educação", "Iniciação Científica"]
+    highlight: true
+
+  - title: "Estudo e aplicação de técnicas de Ciência de Dados e ML para identificação de áreas prioritárias para vigilância e controle de arboviroses em Mossoró-RN (Parte 2)"
+    title_en: "Study and application of Data Science and ML techniques for identifying priority areas for arbovirus surveillance and control in Mossoró-RN (Part 2)"
+    role_pt: "Aluno de Iniciação Científica"
+    role_en: "Undergraduate Research Student"
+    advisor_pt: "Orientadora: Profª. Angélica Félix de Castro"
+    advisor_en: "Advisor: Prof. Angélica Félix de Castro"
+    institution: "UFERSA"
+    period: "2022 – 2023"
+    status_pt: "Concluído"
+    status_en: "Completed"
+    description_pt: "Continuação do projeto de mapeamento epidemiológico de arboviroses em Mossoró (RN), ampliando a base de dados e os modelos preditivos para vigilância em saúde pública. Desenvolvido como Iniciação Científica sob orientação da Profª. Angélica Félix de Castro."
+    description_en: "Continuation of the epidemiological mapping project for arboviruses in Mossoró (RN), expanding the database and predictive models for public health surveillance. Developed as undergraduate research under the supervision of Prof. Angélica Félix de Castro."
+    tags: ["Arboviroses", "Machine Learning", "Epidemiologia", "Mossoró", "Iniciação Científica"]
+    highlight: false
+
+  - title: "Estudo e aplicação de técnicas de Ciência de Dados e ML para identificação de áreas prioritárias para vigilância e controle de arboviroses em Mossoró-RN"
+    title_en: "Study and application of Data Science and ML techniques for identifying priority areas for arbovirus surveillance and control in Mossoró-RN"
+    role_pt: "Aluno de Iniciação Científica"
+    role_en: "Undergraduate Research Student"
+    advisor_pt: "Orientadora: Profª. Angélica Félix de Castro"
+    advisor_en: "Advisor: Prof. Angélica Félix de Castro"
+    institution: "UFERSA"
+    period: "2021 – 2022"
+    status_pt: "Concluído"
+    status_en: "Completed"
+    description_pt: "Projeto inaugural de pesquisa utilizando técnicas de Ciência de Dados e Machine Learning para mapeamento epidemiológico e identificação de áreas prioritárias para vigilância e controle de arboviroses (dengue, chikungunya, zika) em Mossoró-RN. Desenvolvido como Iniciação Científica sob orientação da Profª. Angélica Félix de Castro."
+    description_en: "Inaugural research project using Data Science and Machine Learning techniques for epidemiological mapping and identification of priority areas for arbovirus (dengue, chikungunya, zika) surveillance and control in Mossoró-RN. Developed as undergraduate research under the supervision of Prof. Angélica Félix de Castro."
+    tags: ["Arboviroses", "Machine Learning", "Data Science", "Epidemiologia", "Iniciação Científica"]
+    highlight: false

@@ -1,0 +1,93 @@
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-inner">
+
+    <!-- Profile Photo -->
+    <div class="sidebar-photo-wrap">
+      <img
+        src="{{ site.author.photo | relative_url }}"
+        alt="{{ site.author.name }}"
+        class="sidebar-photo"
+      >
+    </div>
+
+    <!-- Author Info -->
+    <div class="sidebar-info">
+      <h1 class="sidebar-name">{{ site.author.name }}</h1>
+      <p class="sidebar-title" data-pt="{{ site.author.title_pt }}" data-en="{{ site.author.title_en }}">
+        {{ site.author.title_pt }}
+      </p>
+      <p class="sidebar-institution">UFERSA/UERN</p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="sidebar-nav" aria-label="Main navigation">
+      <ul>
+        {% for link in site.nav_links %}
+        <li>
+          <a href="{{ link.url | relative_url }}"
+             class="nav-link{% if page.url == link.url %} active{% endif %}"
+             data-pt="{{ link.title_pt }}"
+             data-en="{{ link.title_en }}">
+            {{ link.title_pt }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+    <!-- Social Links -->
+    <div class="sidebar-social">
+      <a href="https://github.com/{{ site.author.github }}"
+         target="_blank" rel="noopener"
+         aria-label="GitHub" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://linkedin.com/in/{{ site.author.linkedin }}"
+         target="_blank" rel="noopener"
+         aria-label="LinkedIn" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="http://lattes.cnpq.br/{{ site.author.lattes }}"
+         target="_blank" rel="noopener"
+         aria-label="Lattes CNPq" title="Lattes CNPq">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+      <a href="https://orcid.org/{{ site.author.orcid }}"
+         target="_blank" rel="noopener"
+         aria-label="ORCID" title="ORCID">
+        <i class="ai ai-orcid"></i>
+      </a>
+      <a href="https://scholar.google.com.br/citations?user={{ site.author.scholar }}"
+         target="_blank" rel="noopener"
+         aria-label="Google Scholar" title="Google Scholar">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+      <a href="https://www.researchgate.net/profile/{{ site.author.researchgate }}"
+         target="_blank" rel="noopener"
+         aria-label="ResearchGate" title="ResearchGate">
+        <i class="ai ai-researchgate"></i>
+      </a>
+      <a href="mailto:{{ site.author.email }}"
+         aria-label="E-mail" title="{{ site.author.email }}">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+
+    <!-- Theme & Language Controls -->
+    <div class="sidebar-controls">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fas fa-moon" id="themeIcon"></i>
+        <span class="toggle-label" data-pt="Modo Escuro" data-en="Dark Mode">Modo Escuro</span>
+      </button>
+
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+        <i class="fas fa-language"></i>
+        <span id="langLabel">EN</span>
+      </button>
+    </div>
+
+  </div>
+</aside>
+
+<!-- Mobile overlay -->
+<div class="sidebar-overlay" id="sidebarOverlay"></div>

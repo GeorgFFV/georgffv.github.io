@@ -1,0 +1,72 @@
+// === THEME TOKENS (CSS Custom Properties) ===
+
+:root,
+[data-theme="light"] {
+  --bg:            #f8f9fa;
+  --bg-surface:    #ffffff;
+  --bg-sidebar:    #1a1f2e;
+  --bg-code:       #f1f3f5;
+  --bg-hover:      #eef0f3;
+
+  --text:          #1a1d23;
+  --text-muted:    #6c757d;
+  --text-light:    #adb5bd;
+  --text-sidebar:  #e2e8f0;
+  --text-sidebar-muted: #94a3b8;
+
+  --border:        #dee2e6;
+  --border-light:  #f1f3f5;
+
+  --accent:        #4f6ef7;
+  --accent-hover:  #3a56d4;
+  --accent-light:  #eef1fe;
+  --accent-dark:   #2d3fa8;
+
+  --tag-bg:        #eef1fe;
+  --tag-text:      #4f6ef7;
+
+  --shadow-sm:     0 1px 3px rgba(0,0,0,.08);
+  --shadow-md:     0 4px 16px rgba(0,0,0,.10);
+  --shadow-lg:     0 8px 32px rgba(0,0,0,.12);
+
+  --sidebar-link:     #cbd5e1;
+  --sidebar-link-hover: #ffffff;
+  --sidebar-active:   var(--accent);
+}
+
+[data-theme="dark"] {
+  /* Main content: deep near-black */
+  --bg:            #0d1117;
+  --bg-surface:    #161b22;
+  /* Sidebar: distinct dark-navy, clearly separated from bg */
+  --bg-sidebar:    #1e2a45;
+  --bg-code:       #1c2128;
+  --bg-hover:      #21262d;
+
+  --text:          #e6edf3;
+  --text-muted:    #8b949e;
+  --text-light:    #6e7681;
+  --text-sidebar:  #e2e8f0;
+  --text-sidebar-muted: #8b9ab3;
+
+  --border:        #30363d;
+  --border-light:  #21262d;
+
+  --accent:        #79b8ff;
+  --accent-hover:  #58a6ff;
+  --accent-light:  #1c2333;
+  --accent-dark:   #388bfd;
+
+  --tag-bg:        #1c2333;
+  --tag-text:      #79b8ff;
+
+  --shadow-sm:     0 1px 3px rgba(0,0,0,.4);
+  --shadow-md:     0 4px 16px rgba(0,0,0,.5);
+  --shadow-lg:     0 8px 32px rgba(0,0,0,.6);
+
+  --sidebar-link:     #94a3b8;
+  --sidebar-link-hover: #e2e8f0;
+  --sidebar-active:   var(--accent);
+  /* Separator between sidebar and content */
+  --sidebar-border:   rgba(121, 184, 255, 0.12);
+}

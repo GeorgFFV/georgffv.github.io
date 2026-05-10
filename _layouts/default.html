@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  {% include head.html %}
+</head>
+<body>
+
+  <!-- Mobile menu button -->
+  <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+    <i class="fas fa-bars"></i>
+  </button>
+
+  <div class="site-wrapper">
+    {% include sidebar.html %}
+
+    <main class="main-content" id="mainContent">
+      {{ content }}
+      {% include footer.html %}
+    </main>
+  </div>
+
+  <!-- Scripts -->
+  <script src="{{ '/assets/js/theme-lang.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>
